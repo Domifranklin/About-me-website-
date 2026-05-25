@@ -1,0 +1,9 @@
+/* Used this to explain margin, padding, and ID & Class selectors */
+
+div {
+    border: 2px solid blue;
+}
+
+.tag {
+    color: yellow;
+}

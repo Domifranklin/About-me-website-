@@ -1,0 +1,167 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f7fb;
+    color: #222;
+}
+
+header {
+    background-color: #1e90ff;
+    color: white;
+    text-align: center;
+    padding: 40px 20px;
+}
+
+header h1 {
+    font-size: 2.2rem;
+    margin-bottom: 20px
+}
+
+header p {
+    font-size: 1.1rem;
+}
+
+header button {
+    margin-top: 15px;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    color:#1e90ff;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+header button:hover {
+    background-color: #e6f0ff;
+}
+
+.dark-mode {
+    background-color: #121212;
+    color: #fff;
+}
+
+.dark-mode header {
+    background-color: #000;
+}
+
+.dark-mode nav {
+    background-color: #1a1a1a;
+}
+
+.dark-mode section {
+    background-color: #1e1e1e;
+}
+
+.dark-mode a {
+    color: #4da3ff;
+}
+
+.dark-mode footer {
+    background-color: #000;
+}
+
+nav {
+    background-color: #fff;
+    border-bottom: 1px solid #d9e2ec;
+    padding: 15px 20px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    flex-wrap: wrap;
+}
+
+nav a {
+    text-decoration: none;
+    color: #1e90ff;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #0f5fbf;
+    cursor: pointer;
+}
+
+main {
+    width: 90%;
+    max-width: 900px;
+    margin: 30px auto;
+    display: grid;
+    gap: 20px;
+}
+
+section {
+    background-color: #fff;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+}
+
+section h2 {
+    color:#1e90ff;
+    margin-bottom: 10px;
+}
+
+#interest ul {
+    padding-left: 20px;
+}
+
+#interest li {
+    margin-bottom: 8px;
+}
+
+#contacts a {
+    color: #1e90ff;
+    text-decoration: none;
+}
+
+#contacts a:hover {
+    color: #0f5fbf;
+    cursor: pointer;
+}
+
+footer {
+    background-color: #1e90ff;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 30px;
+
+}
+ 
+footer p {
+    font-weight: bold;
+}
+
+@media (max-width: 600px) {
+    header {
+        padding: 30px 15px;
+    }
+
+    header h1 {
+        font-size: 1.8rem;
+    }
+
+    nav ul {
+        flex-direction: column;
+        align-items: center;
+        gap: 12px;
+    }
+
+    main {
+        width: 95%;
+    }
+
+    section {
+        padding: 20px;
+    }
+}
